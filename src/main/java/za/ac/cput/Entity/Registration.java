@@ -57,15 +57,12 @@ public class Registration {
             public RegistrationBuilder setCourseCode(String courseCode) {
                 this.courseCode = courseCode; return this;
             }
-
             public RegistrationBuilder setCourseName(String courseName) {
                 this.courseName = courseName; return this;
             }
-
             public RegistrationBuilder setStudNumber(String studNumber) {
                 this.studNumber = studNumber; return this;
             }
-
             public RegistrationBuilder setRegId(String regId) {
                 this.regId = regId; return this;
             }
