@@ -55,23 +55,19 @@ public class Registration {
             private String regId;
 
             public RegistrationBuilder setCourseCode(String courseCode) {
-                this.courseCode = courseCode;
-                return this;
+                this.courseCode = courseCode; return this;
             }
 
             public RegistrationBuilder setCourseName(String courseName) {
-                this.courseName = courseName;
-                return this;
+                this.courseName = courseName; return this;
             }
 
             public RegistrationBuilder setStudNumber(String studNumber) {
-                this.studNumber = studNumber;
-                return this;
+                this.studNumber = studNumber; return this;
             }
 
             public RegistrationBuilder setRegId(String regId) {
-                this.regId = regId;
-                return this;
+                this.regId = regId; return this;
             }
 
             public Registration build() {
