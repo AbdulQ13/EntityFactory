@@ -29,10 +29,7 @@ class RegistrationTest {
 
     @Test void testIdentity() {
         Registration registration1 = new Registration.RegistrationBuilder().setCourseCode("ADP2415")
-                .setCourseName("Applications Development")
-                .setStudNumber("216118905")
-                .setRegId("202119234")
-                .build();
+                .setCourseName("Applications Development").setStudNumber("216118905").setRegId("202119234").build();
         //Factory
         Registration registration2 = RegistrationFactory.build("Applications Development","ADP2415","216118905","202119234");
         Registration registration3 = registration2;

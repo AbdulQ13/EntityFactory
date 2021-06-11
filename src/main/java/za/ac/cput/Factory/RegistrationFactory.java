@@ -12,10 +12,7 @@ public class RegistrationFactory {
             return null;
 
         return new Registration.RegistrationBuilder().setCourseName(courseCode)
-                .setCourseCode(courseName)
-                .setStudNumber(studNumber)
-                .setRegId(regId)
-                .build();
+                .setCourseCode(courseName).setStudNumber(studNumber).setRegId(regId).build();
     }
 
 
